@@ -1,8 +1,7 @@
 TARGET_BOOTLOADER_BOARD_NAME := msm8992
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP += device/xiaomi/msm8992-common/system.prop
 
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
+TARGET_SPECIFIC_HEADER_PATH += device/xiaomi/msm8992-common/include

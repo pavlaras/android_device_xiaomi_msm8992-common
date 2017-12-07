@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-DEVICE=libra
+DEVICE=msm8992-common
 VENDOR=xiaomi
 
 # Load extractutils and do some sanity checks
@@ -38,7 +38,7 @@ fi
 setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT"
 
 # Copyright headers and guards
-write_headers
+write_headers "aqua libra"
 
 # The standard blobs
 write_makefiles "$MY_DIR"/proprietary-files.txt

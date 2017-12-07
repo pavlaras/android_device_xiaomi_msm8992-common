@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=libra
+DEVICE=msm8992-common
 VENDOR=xiaomi
 
 # Load extractutils and do some sanity checks

@@ -1,2 +1,2 @@
 BOARD_SEPOLICY_DIRS += \
-    $(DEVICE_PATH)/sepolicy
+    device/xiaomi/msm8992-common/sepolicy

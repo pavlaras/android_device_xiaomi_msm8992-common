@@ -1,5 +1,5 @@
 #
-# system.prop Xiaomi Mi4c
+# Xiaomi MSM8992 System Properties
 #
 
 # Audio
@@ -106,6 +106,7 @@ persist.data.netmgrd.qos.enable=true
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.radio.apm_sim_not_pwdn=1
+
 # Override hw_mbn file location
 persist.radio.app_hw_mbn_path=/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/MSM8994/LA
 persist.radio.custom_ecc=1
@@ -119,6 +120,7 @@ rild.libargs=-d /dev/smd0
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 ro.data.large_tcp_window_size=true
 ro.telephony.default_cdma_sub=0
+
 # Start in TD-SCDMA, GSM/WCDMA and LTE mode
 ro.telephony.default_network=20,20
 ro.use_data_netmgrd=true

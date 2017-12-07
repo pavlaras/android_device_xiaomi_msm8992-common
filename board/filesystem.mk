@@ -11,4 +11,4 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/xiaomi/msm8992-common/rootdir/fstab.qcom
