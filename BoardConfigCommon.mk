@@ -190,6 +190,14 @@ WIFI_FIRMWARE_LOADER             := "readmac"
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
 # SELinux
+include device/qcom/sepolicy/sepolicy.mk
+
+ifeq ($(TARGET_DEVICE),aqua)
+BOARD_SEPOLICY_DIRS += \
+    device/xiaomi/msm8992-common/sepolicy \
+    device/xiaomi/aqua/sepolicy
+else
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/msm8992-common/sepolicy
+endif
 

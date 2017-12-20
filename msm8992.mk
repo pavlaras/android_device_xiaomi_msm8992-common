@@ -36,9 +36,6 @@ TARGET_SPECIFIC_HEADER_PATH += device/xiaomi/msm8992-common/include
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-uart"
 
-# QCOM sepolicy
-include device/qcom/sepolicy/sepolicy.mk
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
